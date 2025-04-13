@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGC Career Guide - Explore Indian Higher Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>UGC Career Guide</h1>
+                <p>Your pathway to Indian higher education</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#universities">Universities</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Explore UGC Recognized Courses in India</h2>
+            <p>Discover undergraduate, postgraduate, and doctoral programs approved by the University Grants Commission</p>
+            <a href="#courses" class="btn">Browse Courses</a>
+        </div>
+    </section>
+
+    <section id="courses" class="course-categories">
+        <div class="container">
+            <h2>UGC Approved Course Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <i class="fas fa-atom"></i>
+                    <h3>Science & Technology</h3>
+                    <p>B.Sc, M.Sc, B.Tech, M.Tech programs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Arts & Humanities</h3>
+                    <p>BA, MA in History, Literature, Philosophy</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Commerce & Management</h3>
+                    <p>B.Com, M.Com, BBA, MBA programs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Medical Sciences</h3>
+                    <p>MBBS, BDS, Nursing, Pharmacy</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Law</h3>
+                    <p>LLB, LLM, BA LLB programs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Computer Applications</h3>
+                    <p>BCA, MCA, B.Sc IT programs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="universities" class="featured-universities">
+        <div class="container">
+            <h2>Top UGC Recognized Universities</h2>
+            <div class="university-list">
+                <!-- This will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="careers" class="career-guidance">
+        <div class="container">
+            <h2>Career Guidance</h2>
+            <div class="career-tabs">
+                <div class="tab-header">
+                    <div class="tab-btn active" data-tab="after-12th">After 12th</div>
+                    <div class="tab-btn" data-tab="after-graduation">After Graduation</div>
+                    <div class="tab-btn" data-tab="scholarships">Scholarships</div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="after-12th">
+                        <h3>Career Options After 12th</h3>
+                        <ul>
+                            <li>Engineering (B.Tech/B.E)</li>
+                            <li>Medical (MBBS/BDS)</li>
+                            <li>Commerce (B.Com/CA/CS)</li>
+                            <li>Arts (BA in various specializations)</li>
+                            <li>Law (BA LLB)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="after-graduation">
+                        <h3>Career Options After Graduation</h3>
+                        <ul>
+                            <li>Postgraduate Studies (Masters/PhD)</li>
+                            <li>Civil Services (UPSC)</li>
+                            <li>Professional Courses (MBA, M.Tech)</li>
+                            <li>Research Opportunities</li>
+                            <li>Corporate Jobs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="scholarships">
+                        <h3>UGC Scholarships</h3>
+                        <ul>
+                            <li>National Fellowship for OBC Students</li>
+                            <li>Maulana Azad National Fellowship</li>
+                            <li>Post Graduate Merit Scholarship</li>
+                            <li>Swami Vivekananda Single Girl Child Scholarship</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About UGC Career Guide</h3>
+                    <p>Comprehensive information on UGC recognized courses and career paths in Indian higher education.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#universities">Universities</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 UGC Career Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
